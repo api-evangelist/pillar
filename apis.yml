@@ -1,8 +1,32 @@
 aid: pillar
 name: Pillar
-description: Pillar is a company surfaced as a portfolio company of earlybird and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Pillar is an Italian construction-technology company, founded in 2025 and
+  headquartered in Milan, building what it calls the operating system for the
+  construction industry (il sistema operativo per l'edilizia). Its cloud platform
+  unifies the back office of building firms (imprese edili) — invoicing
+  (fatturazione), cash-flow management (flussi di cassa), bank reconciliation,
+  quotes and estimates (preventivi), procurement, job and project cost control
+  (gestione commessa), and delivery notes and site work reports (DDT e rapportini)
+  — alongside on-site safety (Pillar Sicurezza) and an AI layer (Pillar AI) that
+  automates data entry in real time, including inputs captured from the job site
+  over WhatsApp. Pillar is backed by Earlybird Venture Capital and today reaches
+  customers through a book-a-demo model rather than a public self-serve signup or
+  a developer-facing API; no public API, SDK, or developer documentation surface
+  was found during enrichment.
 url: https://raw.githubusercontent.com/api-evangelist/pillar/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://pillar.it/og/og-it.png
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
@@ -11,10 +35,43 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Construction
+- Construction Technology
+- ConTech
+- Vertical SaaS
+- Invoicing
+- Cash Flow Management
+- Procurement
+- Project Management
+- Field Management
+- Artificial Intelligence
+- Italy
 apis: []
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
+common:
+- type: DomainSecurity
+  url: security/pillar-domain-security.yml
+- type: Website
+  url: https://pillar.it
+- type: Support
+  url: https://aiuto.pillar.it
+- type: Blog
+  url: https://pillar.it/risorse/blog
+- type: SignUp
+  url: https://pillar.it/prenota-demo
+- type: Login
+  url: https://app.pillar.it
+- type: TermsOfService
+  url: https://pillar.it/terms-and-conditions
+- type: PrivacyPolicy
+  url: https://pillar.it/privacy-policy
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
